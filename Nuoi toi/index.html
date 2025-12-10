@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuôi Tôi — Landing Page hài hước, minh bạch</title>
+  <meta name="description" content="Một trang vui vẻ, minh bạch, nhẹ nhàng để bạn... nuôi tôi. Có bảng chi tiêu tĩnh, cam kết hài hước và QR donate giả lập." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#hero">Nuôi Tôi</a>
+      <div class="nav-links">
+        <a href="#about">Vì sao ủng hộ</a>
+        <a href="#spending">Minh bạch chi tiêu</a>
+        <a href="#commitments">Cam kết</a>
+        <a href="#donate" class="btn btn-nav">Donate</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+      <div class="container">
+        <h1 class="title">Nuôi tôi một chút, vui cả làng</h1>
+        <p class="subtitle">Trang này nói rõ: tiền bạn cho sẽ được tiêu có tâm, có tầm, có... cà phê.</p>
+        <div class="cta-group">
+          <a href="#donate" class="btn btn-primary">Nuôi tôi ngay</a>
+          <a href="#spending" class="btn btn-secondary">Xem chi tiêu</a>
+        </div>
+        <p class="micro-note">Không bán giấc mơ làm giàu — chỉ bán những tiếng cười (và cốc cà phê). ✨</p>
+      </div>
+    </section>
+
+    <!-- Why Support Me -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>Vì sao bạn nên ủng hộ tôi?</h2>
+        <ul class="benefits">
+          <li>
+            <span class="emoji">😎</span>
+            <div>
+              <strong>Tính cách:</strong>
+              Tôi hài hước vừa đủ để bạn tin tiền mình được dùng đúng chỗ… chỗ vui.
+            </div>
+          </li>
+          <li>
+            <span class="emoji">☕</span>
+            <div>
+              <strong*Năng lượng:* </strong>
+              Cà phê vào, nội dung ra. Không cà phê, nội dung… đi ngủ.
+            </div>
+          </li>
+          <li>
+            <span class="emoji">📉</span>
+            <div>
+              <strong>Minh bạch:</strong>
+              Bảng chi tiêu tĩnh, số rõ ràng, không “làm màu” bằng biểu đồ động chóng mặt.
+            </div>
+          </li>
+          <li>
+            <span class="emoji">🪙</span>
+            <div>
+              <strong>Lời hứa:</strong>
+              Tôi không mua crypto bằng tiền của bạn… chắc là không. (Đùa thôi, không mua thật!)
+            </div>
+          </li>
+          <li>
+            <span class="emoji">🎯</span>
+            <div>
+              <strong>Hiệu quả:</strong>
+              Ít chiêu trò, nhiều chất lượng. Mục tiêu là khiến bạn mỉm cười, không thở dài.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Spending Transparency -->
+    <section id="spending" class="section spending">
+      <div class="container">
+        <h2>Minh bạch chi tiêu</h2>
+        <p class="section-desc">Bảng dưới đây là cơ cấu chi tiêu giả lập (tĩnh). Không chạy real-time vì… tôi còn đang chạy bộ.</p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Cơ cấu chi tiêu (%)</h3>
+            <div class="bar-chart">
+              <div class="bar">
+                <div class="bar-label"><span>Ăn uống</span><span>35%</span></div>
+                <div class="bar-track"><span class="bar-fill" style="--p:35"></span></div>
+              </div>
+              <div class="bar">
+                <div class="bar-label"><span>Tiền nhà</span><span>30%</span></div>
+                <div class="bar-track"><span class="bar-fill" style="--p:30"></span></div>
+              </div>
+              <div class="bar">
+                <div class="bar-label"><span>Cà phê</span><span>15%</span></div>
+                <div class="bar-track"><span class="bar-fill" style="--p:15"></span></div>
+              </div>
+              <div class="bar">
+                <div class="bar-label"><span>Internet</span><span>10%</span></div>
+                <div class="bar-track"><span class="bar-fill" style="--p:10"></span></div>
+              </div>
+              <div class="bar">
+                <div class="bar-label"><span>Dự phòng</span><span>10%</span></div>
+                <div class="bar-track"><span class="bar-fill" style="--p:10"></span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Bảng chi tiết tháng (giả lập)</h3>
+            <table class="spending-table">
+              <thead>
+                <tr>
+                  <th>Hạng mục</th>
+                  <th>Chi phí</th>
+                  <th>Ghi chú</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ăn uống</td>
+                  <td>3,500,000 ₫</td>
+                  <td>Không bỏ bữa — bỏ buồn.</td>
+                </tr>
+                <tr>
+                  <td>Tiền nhà</td>
+                  <td>3,000,000 ₫</td>
+                  <td>Ở nơi có Wi-Fi mạnh để làm người tốt.</td>
+                </tr>
+                <tr>
+                  <td>Cà phê</td>
+                  <td>1,500,000 ₫</td>
+                  <td>Ý tưởng nảy ra từ mùi Arabica.</td>
+                </tr>
+                <tr>
+                  <td>Internet</td>
+                  <td>500,000 ₫</td>
+                  <td>Không mạng, không vui, không đời.</td>
+                </tr>
+                <tr>
+                  <td>Dự phòng</td>
+                  <td>500,000 ₫</td>
+                  <td>Phòng thân — không phòng ngủ trưa.</td>
+                </tr>
+                <tr class="total">
+                  <td>Tổng</td>
+                  <td>9,000,000 ₫</td>
+                  <td>Con số tĩnh — đừng hỏi blockchain.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <p class="fine-print">Lưu ý: Đây là dữ liệu minh họa, không phải báo cáo tài chính. Đừng mang đi thuyết trình với sếp.</p>
+      </div>
+    </section>
+
+    <!-- Commitments -->
+    <section id="commitments" class="section commitments">
+      <div class="container">
+        <h2>Cam kết sử dụng tiền</h2>
+        <ul class="commit-list">
+          <li>
+            <strong>Không mua coin, không mua khinh khí cầu:</strong> Tiền đi đúng chỗ: miệng (ăn), đầu (ý tưởng), tay (làm).
+          </li>
+          <li>
+            <strong>Minh bạch như nước suối:</strong> Bảng chi tiêu công khai, đơn giản, không hoa hòe, không show Excel 40 sheet.
+          </li>
+          <li>
+            <strong>Tôn trọng từng đồng:</strong> Dù 10k hay 1 triệu đều được cảm ơn — không phân biệt mệnh giá.
+          </li>
+          <li>
+            <strong>Không spam:</strong> Không email “chốt đơn”, không cold call, chỉ gửi lời cảm ơn ấm lòng.
+          </li>
+          <li>
+            <strong>Có trách nhiệm:</strong> Nếu lỡ tiêu cà phê quá tay, tôi sẽ… làm nội dung gấp đôi để bù.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Donation Area -->
+   <section id="donate" class="section donate">
+  <div class="container">
+    <h2>Ủng hộ tôi — đơn giản như uống nước</h2>
+    <div class="donate-grid">
+      
+      <!-- QR thực -->
+      <div class="qr card">
+        <div class="qr-box" aria-label="QR thanh toán">
+          <img src="images/qr.png" alt="QR thanh toán" class="qr-img" />
+        </div>
+        <p class="qr-caption">Quét mã QR để donate (ảnh thật).</p>
+      </div>
+      
+      <!-- Thông tin donate -->
+      <div class="donate-info card">
+        <h3>Cách donate</h3>
+        <ul class="donate-steps">
+          <li><strong>Quét mã:</strong> Mở app ngân hàng/MoMo, quét ảnh QR ở bên trái.</li>
+          <li><strong>Nội dung chuyển khoản:</strong> “Nuôi tôi” + lời chúc (tùy sáng tạo).</li>
+          <li><strong>Số tiền:</strong> Tùy tâm — không có “gói VIP”, chỉ có “tình VIP”.</li>
+        </ul>
+        <div class="note">
+          <p><strong>Gợi ý:</strong> Nếu bạn không thích QR, có thể thêm số tài khoản hoặc ví MoMo ở đây.</p>
+          <p><strong>Riêng tư:</strong> Không thu thập dữ liệu cá nhân. Chuyển xong, bạn giữ lại nụ cười.</p>
+        </div>
+        <a href="#hero" class="btn btn-primary">Quay lại đầu trang</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-title">Nuôi Tôi — trang vui vẻ, minh bạch, không drama.</p>
+      <p class="footer-note">Disclaimer: Đây là trang cá nhân, thông tin chi tiêu mang tính minh họa. Không phải lời mời đầu tư.</p>
+      <p class="footer-small">© 2025 Nuôi Tôi. Làm bằng tình yêu, cà phê, và HTML/CSS/JS thuần.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
